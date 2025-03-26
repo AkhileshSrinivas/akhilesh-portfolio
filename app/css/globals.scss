@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+
+#sticky-card-1 {
+  --index: 1;
+  top: 4rem;
+}
+
+#sticky-card-2 {
+  --index: 2;
+  top: calc(4rem + 2rem); /* 6rem */
+}
+
+#sticky-card-3 {
+  --index: 3;
+  top: calc(4rem + 4rem); /* 8rem */
+}
+
+#sticky-card-4 {
+  --index: 4;
+  top: calc(4rem + 6rem); /* 10rem */
+}
+
+#sticky-card-5 {
+  --index: 5;
+  top: calc(4rem + 8rem); /* 12rem */
+}
+
+#sticky-card-6 {
+  --index: 6;
+  top: calc(4rem + 10rem);
+}
+
+#sticky-card-7 {
+  --index: 7;
+  top: calc(4rem + 12rem);
+}
+
+#sticky-card-8 {
+  --index: 8;
+  top: calc(4rem + 14rem);
+}
+
+#sticky-card-9 {
+  --index: 9;
+  top: calc(4rem + 16rem);
+}
+
+#sticky-card-10 {
+  --index: 10;
+  top: calc(4rem + 18rem);
+}
+
+#sticky-card-11 {
+  --index: 11;
+  top: calc(4rem + 20rem);
+}
+
+#sticky-card-12 {
+  --index: 12;
+  top: calc(4rem + 22rem);
+}
