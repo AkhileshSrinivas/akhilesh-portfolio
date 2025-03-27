@@ -23,6 +23,6 @@ import dynamic from "next/dynamic";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
-export default function AnimationLottie({ animationData }) {
-  return <Lottie animationData={animationData} loop autoplay />;
+export default function AnimationLottie({ animationPath }) {
+  return <Lottie animationData={animationPath} loop autoplay />;
 }
