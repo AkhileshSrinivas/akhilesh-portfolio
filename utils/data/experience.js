@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: 'Associate Machine Learning Engineer - LR1',
     company: "Unwita Insights Pvt. Ltd.",
-    duration: "(April 2024 - Present)"
+    duration: "(April 2024 - March 2025)"
   },
   {
     id: 2,
